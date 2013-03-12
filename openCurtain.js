@@ -1,8 +1,8 @@
 function openCurtain(id){
 	var m = $("#"+id).data("frame");
 	$("#"+id).css("z-index", "300");
-		var nome = $("#"+id).attr("class").replace(/[0-9]/g,"");
-		//var n = nome.replace(/[^0-9]/g,"");
+	var nome = $("#"+id).attr("class").replace(/[0-9]/g,"");
+	
 	var i = 0;
 	if(id == "siparioLeft"){
 	$("#"+id).transition({x : "280"},8010,"easeOutExpo");
