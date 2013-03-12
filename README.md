@@ -5,4 +5,5 @@ No support for mobile browser.
 
 The problem is the limitation on mobile device to ajax load an image exceeding 3MP. You must slice the sprites into several ! and change the animation script.
 
-View a working <a href="http://francescocostantino.info/openCurtain/index.html" target="_blank">example here</a>
+View a working <a href="http://francescocostantino.info/openCurtain/index.html" target="_blank">example here</a>.
+Just click on the curtain to start the animation.
